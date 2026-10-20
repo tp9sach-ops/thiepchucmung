@@ -39,11 +39,11 @@ body{background:#ffd9e6;background:linear-gradient(160deg,#ffc2d8 0%,#ffe3ec 38%
 #env.open .fl{transform:rotateX(180deg);z-index:0}
 #env.open .sl,#env.open #hint{opacity:0}
 #env.gone{transform:translateY(45vh) scale(.7);opacity:0;pointer-events:none}
-#card{position:absolute;width:92vw;max-width:600px;max-height:94vh;overflow:hidden;background:linear-gradient(180deg,#fffdf9,#fff0f5);border-radius:16px;padding:26px 22px 30px;text-align:center;box-shadow:0 26px 60px rgba(150,30,70,.32);opacity:0;transform:translateY(30px) scale(.55);transition:all 1s cubic-bezier(.2,.8,.2,1);z-index:3;visibility:hidden}
+#card{position:absolute;width:92vw;max-width:600px;max-height:94vh;overflow:hidden;background:linear-gradient(180deg,#fffdf9,#fff0f5);border-radius:16px;padding:26px 22px 86px;text-align:center;box-shadow:0 26px 60px rgba(150,30,70,.32);opacity:0;transform:translateY(30px) scale(.55);transition:all 1s cubic-bezier(.2,.8,.2,1);z-index:3;visibility:hidden}
 #card.show{opacity:1;transform:none;visibility:visible}
 #card:before{content:"";position:absolute;top:9px;left:9px;right:9px;bottom:9px;border:1.5px dashed var(--gold);border-radius:10px;pointer-events:none}
 .logo{position:absolute;top:16px;right:16px;width:50px;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.2)}
-.rose{position:absolute;width:92px;height:92px;bottom:-14px;animation:sway 4s ease-in-out infinite alternate}
+.rose{position:absolute;width:72px;height:72px;bottom:-10px;pointer-events:none;animation:sway 4s ease-in-out infinite alternate}
 .rose.l{left:-10px}.rose.r{right:-10px;transform:scaleX(-1);animation-delay:.8s}
 @keyframes sway{to{transform:rotate(7deg)}}
 .rise{opacity:0;transform:translateY(14px);transition:all .8s ease}
@@ -70,7 +70,7 @@ p.m b{color:var(--g)}
 .sheet input{width:100%;padding:10px;border:1.5px solid var(--pk2);border-radius:8px;font-size:16px;margin:6px 0}
 .sheet button{background:var(--pk);color:#fff;margin:4px 6px 0 0}
 .sheet small{display:block;color:#666;margin-top:8px;word-break:break-all}
-@media(max-height:620px){.big{font-size:70px}.sc{margin-top:8px}}
+@media(max-height:620px){.big{font-size:70px}.sc{margin-top:8px}#card{padding-bottom:66px}p.m{font-size:13px;line-height:1.5}.rose{width:56px;height:56px}}
 </style>
 </head>
 <body>
