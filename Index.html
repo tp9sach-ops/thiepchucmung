@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chúc mừng 20/10 – Bánh sầu riêng 9 Sạch</title>
+<meta name="description" content="Bạn nhận được 1 tấm thiệp từ Bánh sầu riêng 9 Sạch. Chạm để mở thiệp.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bánh sầu riêng 9 Sạch">
+<meta property="og:title" content="💌 Thiệp chúc mừng 20/10 dành tặng bạn">
+<meta property="og:description" content="Bạn nhận được 1 tấm thiệp từ Bánh sầu riêng 9 Sạch. Chạm để mở thiệp.">
+<meta property="og:image" content="https://TEN-GITHUB.github.io/TEN-REPO/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://TEN-GITHUB.github.io/TEN-REPO/">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@500;700&family=Be+Vietnam+Pro:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--g:#1b7a1b;--pk:#e0457b;--pk2:#ffb6cf;--gold:#e8b030;--paper:#fffafb;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0}
+body{background:#ffd9e6;background:linear-gradient(160deg,#ffc2d8 0%,#ffe3ec 38%,#ffeaa0 100%);font-family:'Be Vietnam Pro',Arial,sans-serif;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#3a2a30}
+.bk{position:fixed;border-radius:50%;background:#fff;opacity:.35;pointer-events:none;animation:fl 7s ease-in-out infinite alternate}
+@keyframes fl{to{transform:translateY(-26px) scale(1.1)}}
+.pt{position:fixed;top:-30px;pointer-events:none;z-index:1;color:var(--pk);animation:fall linear forwards}
+.pt.p{width:15px;height:19px;background:linear-gradient(135deg,#fff,#ffb6cf);border-radius:150% 0 150% 0;opacity:.9}
+.pt.y{width:15px;height:19px;background:linear-gradient(135deg,#fff7d0,#ffd54f);border-radius:150% 0 150% 0;opacity:.9}
+.pt.h{font-size:16px;opacity:.7}
+@-webkit-keyframes fall{to{-webkit-transform:translate3d(var(--dx),112vh,0) rotate(var(--r))}}
+@keyframes fall{to{transform:translate3d(var(--dx),112vh,0) rotate(var(--r))}}
+.conf{position:fixed;top:42%;left:50%;width:8px;height:12px;pointer-events:none;z-index:6;animation:burst 1.7s cubic-bezier(.2,.7,.3,1) forwards}
+@keyframes burst{to{transform:translate(var(--x),var(--y)) rotate(var(--r));opacity:0}}
+#env{position:relative;width:300px;max-width:80vw;height:200px;cursor:pointer;transition:transform .9s ease,opacity .9s ease;z-index:2}
+#env .b{position:absolute;top:0;left:0;right:0;bottom:0;background:#e0457b;border-radius:8px;box-shadow:0 20px 44px rgba(150,30,70,.35)}
+#env .f{position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(160deg,#ff8fb4,#ec5c8e);-webkit-clip-path:polygon(0 0,50% 56%,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,50% 56%,100% 0,100% 100%,0 100%);border-radius:8px}
+#env .fl{position:absolute;left:0;right:0;top:0;height:58%;background:#f26a99;-webkit-clip-path:polygon(0 0,100% 0,50% 100%);clip-path:polygon(0 0,100% 0,50% 100%);-webkit-transform-origin:top;transform-origin:top;transition:transform .8s ease .1s;z-index:3}
+#env .sl{position:absolute;left:50%;top:48%;width:62px;height:62px;margin:-31px;border-radius:50%;z-index:4;border:3px solid var(--gold);box-shadow:0 4px 14px rgba(0,0,0,.3);transition:opacity .4s}
+#hint{position:absolute;left:0;right:0;bottom:-46px;text-align:center;font-weight:600;color:#b02a5c;animation:pulse 1.4s infinite}
+@keyframes pulse{50%{opacity:.4}}
+#env.open .fl{transform:rotateX(180deg);z-index:0}
+#env.open .sl,#env.open #hint{opacity:0}
+#env.gone{transform:translateY(45vh) scale(.7);opacity:0;pointer-events:none}
+#card{position:absolute;width:92vw;max-width:600px;max-height:94vh;overflow:hidden;background:linear-gradient(180deg,#fffdf9,#fff0f5);border-radius:16px;padding:26px 22px 30px;text-align:center;box-shadow:0 26px 60px rgba(150,30,70,.32);opacity:0;transform:translateY(30px) scale(.55);transition:all 1s cubic-bezier(.2,.8,.2,1);z-index:3;visibility:hidden}
+#card.show{opacity:1;transform:none;visibility:visible}
+#card:before{content:"";position:absolute;top:9px;left:9px;right:9px;bottom:9px;border:1.5px dashed var(--gold);border-radius:10px;pointer-events:none}
+.logo{position:absolute;top:16px;right:16px;width:50px;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.rose{position:absolute;width:92px;height:92px;bottom:-14px;animation:sway 4s ease-in-out infinite alternate}
+.rose.l{left:-10px}.rose.r{right:-10px;transform:scaleX(-1);animation-delay:.8s}
+@keyframes sway{to{transform:rotate(7deg)}}
+.rise{opacity:0;transform:translateY(14px);transition:all .8s ease}
+.in{opacity:1;transform:none}
+.sc{font-family:'Dancing Script','Brush Script MT',cursive;font-size:32px;color:var(--g);margin:18px 0 0}
+.big{position:relative;display:inline-block;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:92px;line-height:1.05;margin:0;color:var(--g);animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{text-shadow:0 0 24px rgba(255,105,160,.8)}}
+.big svg{position:absolute;right:-6px;top:-24px;width:44px;height:30px}
+.sp{position:absolute;color:var(--gold);font-size:18px;animation:tw 1.6s ease-in-out infinite}
+@keyframes tw{50%{opacity:.1;transform:scale(.4) rotate(40deg)}}
+.ln{height:2px;width:70%;margin:12px auto 14px;background:linear-gradient(90deg,transparent,var(--pk),var(--g),var(--pk),transparent);transform:scaleX(0);transition:transform 1s ease}
+.ln.in{transform:scaleX(1)}
+.to{font-family:'Dancing Script',cursive;font-size:30px;color:#b8860b;margin:2px 0 12px;min-height:1.3em}
+.to b{color:var(--pk)}
+p.m{font-size:14px;line-height:1.65;margin:0 0 10px;padding:0 8px}
+p.m b{color:var(--g)}
+.heart{display:inline-block;color:var(--pk);animation:hb 1s ease-in-out infinite}
+@keyframes hb{50%{transform:scale(1.35)}}
+#mu{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:12px;z-index:9;width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,255,255,.85);color:var(--pk);font-size:18px;box-shadow:0 3px 10px rgba(0,0,0,.2);display:none}
+#tools{position:fixed;bottom:calc(12px + env(safe-area-inset-bottom,0px));right:12px;z-index:9}
+#tools button,.sheet button{border:0;border-radius:20px;padding:9px 14px;background:rgba(255,255,255,.92);color:var(--pk);font:600 13px 'Be Vietnam Pro',Arial,sans-serif;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.sheet{display:none;position:absolute;bottom:46px;right:0;width:300px;max-width:88vw;background:#fff;padding:14px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.sheet.on{display:block}
+.sheet input{width:100%;padding:10px;border:1.5px solid var(--pk2);border-radius:8px;font-size:16px;margin:6px 0}
+.sheet button{background:var(--pk);color:#fff;margin:4px 6px 0 0}
+.sheet small{display:block;color:#666;margin-top:8px;word-break:break-all}
+@media(max-height:620px){.big{font-size:70px}.sc{margin-top:8px}}
+</style>
+</head>
+<body>
+<div class="bk" style="width:120px;height:120px;left:-30px;top:12%"></div>
+<div class="bk" style="width:80px;height:80px;right:8%;top:62%;animation-delay:1s"></div>
+<div class="bk" style="width:50px;height:50px;left:20%;bottom:8%;animation-delay:2s"></div>
+
+<div id="env"><div class="b"></div><div class="f"></div><div class="fl"></div><img class="sl" src="logo.png" alt=""><div id="hint">Chạm để mở thiệp</div></div>
+
+<div id="card">
+  <img class="logo" src="logo.png" alt="9 Sạch">
+  <p class="sc rise" data-d="0">Chúc mừng ngày</p>
+  <h1 class="big rise" data-d="500">20/10
+    <svg viewBox="0 0 60 40" fill="none" stroke="#e8b030" stroke-width="2.4"><path d="M4 36h52M6 36L2 10l14 12 14-18 14 18 14-12-4 26"/></svg>
+    <span class="sp" style="left:-14px;top:8px">✦</span><span class="sp" style="right:-18px;bottom:10px;animation-delay:.5s">✦</span><span class="sp" style="left:30%;top:-12px;animation-delay:1s;font-size:12px">✦</span>
+  </h1>
+  <div class="ln" data-d="1000"></div>
+  <div class="to" id="to"></div>
+  <p class="m rise" data-d="2300">Nhân ngày Phụ nữ Việt Nam 20/10, <b>Bánh sầu riêng 9 Sạch</b> xin gửi lời chúc tốt đẹp đến Quý Đối tác nữ.</p>
+  <p class="m rise" data-d="3000">Kính chúc Quý Đối tác luôn <b>xinh đẹp, rạng rỡ</b>, nhiều sức khỏe, hạnh phúc, niềm vui và thành công trong cuộc sống.</p>
+  <p class="m rise" data-d="3700">Trân trọng cảm ơn Quý Đối tác đã tin tưởng và đồng hành cùng chúng tôi. <span class="heart">♥</span></p>
+  <svg class="rose l" viewBox="0 0 100 100"><defs><radialGradient id="rg" cx="50%" cy="45%"><stop offset="0" stop-color="#ff9ec0"/><stop offset="1" stop-color="#e0457b"/></radialGradient></defs><path d="M52 60C50 80 56 92 70 100" stroke="#2e8b3a" stroke-width="4" fill="none"/><path d="M54 80c12-10 24-6 28-2-8 10-20 10-28 2z" fill="#3aa24a"/><g fill="url(#rg)" stroke="#c2336a" stroke-width=".8"><ellipse cx="50" cy="40" rx="26" ry="22"/><ellipse cx="38" cy="38" rx="14" ry="18" transform="rotate(-20 38 38)"/><ellipse cx="62" cy="38" rx="14" ry="18" transform="rotate(20 62 38)"/><ellipse cx="50" cy="36" rx="12" ry="14" fill="#ff8fb4"/></g><path d="M44 36c4-6 12-6 12 0s-8 8-10 2" stroke="#c2336a" stroke-width="1.5" fill="none"/></svg>
+  <svg class="rose r" viewBox="0 0 100 100"><path d="M52 60C50 80 56 92 70 100" stroke="#2e8b3a" stroke-width="4" fill="none"/><path d="M54 80c12-10 24-6 28-2-8 10-20 10-28 2z" fill="#3aa24a"/><g fill="url(#rg)" stroke="#c2336a" stroke-width=".8"><ellipse cx="50" cy="40" rx="26" ry="22"/><ellipse cx="38" cy="38" rx="14" ry="18" transform="rotate(-20 38 38)"/><ellipse cx="62" cy="38" rx="14" ry="18" transform="rotate(20 62 38)"/><ellipse cx="50" cy="36" rx="12" ry="14" fill="#ff8fb4"/></g><path d="M44 36c4-6 12-6 12 0s-8 8-10 2" stroke="#c2336a" stroke-width="1.5" fill="none"/></svg>
+</div>
+
+<button id="mu">♪</button>
+<div id="tools">
+  <div class="sheet" id="sheet">
+    <b>Đổi tên người nhận</b>
+    <input id="nm" placeholder="Tên người nhận, VD: Chị Lan" maxlength="40">
+    <button id="mk" style="display:none">.</button><button id="pv">Áp dụng</button>
+    <small id="lk"></small>
+  </div>
+  <button id="tg">✎ Đổi tên</button>
+</div>
+
+<script>
+var $=function(s){return document.querySelector(s)};
+var P=new URLSearchParams(location.search);
+var DEFAULT_NAME='';/* Điền sẵn tên nếu muốn, VD: 'Chị Lan'. Để trống = Quý Đối tác */
+var name=(P.get('ten')||DEFAULT_NAME).trim().slice(0,40);
+$('#nm').value=name;
+function rnd(a,b){return a+Math.random()*(b-a)}
+function petal(){var p=document.createElement('i'),k=Math.random(),t=k<.4?'p':k<.7?'y':'h';p.className='pt '+t;if(t=='h')p.textContent='♥';p.style.left=rnd(0,100)+'vw';p.style.setProperty('--dx',rnd(-80,80)+'px');p.style.setProperty('--r',rnd(180,720)+'deg');p.style.animationDuration=rnd(6,11)+'s';document.body.appendChild(p);setTimeout(function(){p.remove()},12000)}
+for(var i=0;i<10;i++)setTimeout(petal,i*300);setInterval(petal,650);
+function confetti(){var c=['#ffd54f','#e0457b','#fff','#ffb6cf','#1b7a1b'];for(var i=0;i<80;i++){var e=document.createElement('i');e.className='conf';e.style.background=c[i%5];e.style.setProperty('--x',rnd(-45,45)+'vw');e.style.setProperty('--y',rnd(-40,50)+'vh');e.style.setProperty('--r',rnd(-720,720)+'deg');document.body.appendChild(e);(function(x){setTimeout(function(){x.remove()},1800)})(e)}}
+function type(el,txt){var i=0;(function s(){el.textContent='Kính gửi: '+txt.slice(0,i);if(i++<txt.length)setTimeout(s,70);else{el.innerHTML='Kính gửi: <b></b>';el.querySelector('b').textContent=txt}})()}
+
+/* Nhạc hộp: tổng hợp bằng Web Audio, không cần file */
+var AC=null,on=false,step=0,timer=null;
+var CH=[[261.63,329.63,392,523.25],[220,261.63,329.63,440],[174.61,220,261.63,349.23],[196,246.94,293.66,392]];
+var MEL=[659.25,0,783.99,0,880,0,783.99,0, 659.25,0,880,0,1046.5,0,880,0, 698.46,0,880,0,1046.5,0,880,0, 783.99,0,987.77,0,1174.7,0,1046.5,0];
+function note(f,t,v,d){var o=AC.createOscillator(),g=AC.createGain();o.type='triangle';o.frequency.value=f;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(g);g.connect(AC.destination);o.start(t);o.stop(t+d+.05);
+var o2=AC.createOscillator(),g2=AC.createGain();o2.type='sine';o2.frequency.value=f*2;g2.gain.setValueAtTime(.0001,t);g2.gain.exponentialRampToValueAtTime(v*.3,t+.01);g2.gain.exponentialRampToValueAtTime(.0001,t+d*.5);o2.connect(g2);g2.connect(AC.destination);o2.start(t);o2.stop(t+d);}
+function sched(){if(!on)return;var t=AC.currentTime+.05,ev=.36;for(var k=0;k<8;k++){var bar=Math.floor(step/8)%4,pos=step%8,c=CH[bar],tt=t+k*ev;
+note(c[[0,1,2,3,2,1,2,3][pos]],tt,.09,1.4);if(pos==0)note(c[0]/2,tt,.1,2.4);
+var m=MEL[(bar*8+pos)%MEL.length];if(m)note(m,tt,.07,1.6);step++}
+timer=setTimeout(sched,8*ev*1000-120)}
+function music(v){if(v){try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();AC.resume();on=true;sched();$('#mu').textContent='♪'}catch(e){}}else{on=false;clearTimeout(timer);$('#mu').textContent='✕'}}
+$('#mu').onclick=function(){music(!on)};
+
+var opened=false;
+function openCard(){if(opened)return;opened=true;music(true);$('#mu').style.display='block';var e=$('#env');e.classList.add('open');
+setTimeout(function(){e.classList.add('gone');$('#card').classList.add('show');confetti();
+[].forEach.call(document.querySelectorAll('.rise,.ln'),function(el){setTimeout(function(){el.classList.add('in')},+el.getAttribute('data-d')+400)});
+setTimeout(function(){type($('#to'),name||'Quý Đối tác')},1500)},900)}
+$('#env').onclick=openCard;
+if(P.get('auto'))setTimeout(openCard,400);
+var SHARE_URL='https://TEN-GITHUB.github.io/TEN-REPO/';/* Link trang thiệp trên GitHub Pages */
+function link(){var n=$('#nm').value.trim();return (SHARE_URL||location.origin+location.pathname)+'?ten='+encodeURIComponent(n||'Quý Đối tác')}
+$('#tg').onclick=function(){$('#sheet').classList.toggle('on')};
+$('#pv').onclick=function(){name=$('#nm').value.trim().slice(0,40);if(!opened)openCard();else type($('#to'),name||'Quý Đối tác')};
+function copy(t){try{navigator.clipboard.writeText(t);return}catch(e){}var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove()}
+$('#mk').onclick=function(){var l=link();$('#lk').textContent=l;copy(l);
+if(navigator.share)navigator.share({title:'Chúc mừng 20/10',text:'Thiệp chúc mừng 20/10 từ Bánh sầu riêng 9 Sạch',url:l}).catch(function(){});else $('#lk').textContent='Đã copy: '+l}
+</script>
+</body>
+</html>
