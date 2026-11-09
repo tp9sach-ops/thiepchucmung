@@ -1,0 +1,5 @@
+File kiểm tra tải lên (test upload)
+Repo: tp9sach-ops/thiepchucmung
+Tạo bởi Claude ngày 2026-11-09.
+Nếu bạn thấy file này trên GitHub nghĩa là việc tải lên hoạt động bình thường.
+Có thể xóa file này bất cứ lúc nào.
